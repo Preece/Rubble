@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class GameManager : MonoBehaviour {
 
     [SerializeField]
-    int secondsPerCycle = 5;
+    float secondsPerCycle = 0.2f;
     float pointInCycle = 0;
     static GameManager t; 
 
@@ -66,6 +66,7 @@ public class GameManager : MonoBehaviour {
             ClickedNothing(); 
         }
     }
+
     void ClickedNothing()
     {
         UIManager.Deselect(); 

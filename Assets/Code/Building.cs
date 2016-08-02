@@ -9,8 +9,9 @@ public class Building : MonoBehaviour {
     string name; 
     public string Name { get { return name; } }
     [SerializeField]
-    int cyclesToProduce = 1;
-    int currentCycle = 0; 
+	float efficiency = 1.0f;
+	float currentCycle = 0.0f; 
+
     Job[] jobs;
 
     //The lists are so we can view and set values in the inspector
@@ -31,6 +32,11 @@ public class Building : MonoBehaviour {
     List<Building> upgradePossibilities;
     Dictionary<string, int> upgradeStock;
     Building upgradingTo; 
+
+	[SerializeField]
+	List<Recipe> recipies;
+
+	Recipe currentRecipe;
 
 
 	// Use this for initialization
@@ -56,18 +62,23 @@ public class Building : MonoBehaviour {
 
     public void NextCycle()
     {
-        currentCycle++;
-        if (currentCycle > cyclesToProduce)
-        {
-            currentCycle -= cyclesToProduce;
-            Produce(); 
-        }
+		if (currentRecipe != null) {
+			currentCycle++;
+
+			if (currentCycle > (currentRecipe.cyclesToProduce * efficiency))
+			{
+				currentCycle -= (currentRecipe.cyclesToProduce * efficiency);
+				Produce(); 
+			}
+		}
+        
     }
     public void ClickedOn()
     {
         Debug.Log("clicked on" + name);
         UIManager.DisplayUpgradePossiblities(this, upgradePossibilities); 
     }
+
     public void UpgradeBuliding(Building upgradeBuilding)
     {
         upgradingTo = upgradeBuilding; 
