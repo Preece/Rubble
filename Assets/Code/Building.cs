@@ -30,6 +30,7 @@ public class Building : MonoBehaviour {
     List<Resource> creationCost; 
     [SerializeField]
     List<Building> upgradePossibilities;
+
     Dictionary<string, int> upgradeStock;
     Building upgradingTo; 
 
@@ -43,6 +44,8 @@ public class Building : MonoBehaviour {
 	void Start () {
         jobs = GetComponentsInChildren<Job>();
         GameManager.RegisterBuilding(this);
+
+		currentRecipe = recipies[0];
 	}
 
     internal void UpdateEfficiency()
@@ -57,7 +60,7 @@ public class Building : MonoBehaviour {
 
     void Produce()
     {
-        Debug.Log("producing"); 
+        Debug.Log("Producing: " + currentRecipe); 
     }
 
     public void NextCycle()
@@ -65,9 +68,9 @@ public class Building : MonoBehaviour {
 		if (currentRecipe != null) {
 			currentCycle++;
 
-			if (currentCycle > (currentRecipe.cyclesToProduce * efficiency))
+			if (currentCycle > (currentRecipe.GetCyclesToProduce() * efficiency))
 			{
-				currentCycle -= (currentRecipe.cyclesToProduce * efficiency);
+				currentCycle -= (currentRecipe.GetCyclesToProduce() * efficiency);
 				Produce(); 
 			}
 		}

@@ -11,11 +11,15 @@ public class Recipe : MonoBehaviour {
 	[SerializeField]
 	List<Resource> output;
 
-	public float cyclesToProduce = 5.0f;
+	[SerializeField]
+	float secondsToProduce = 1.0f;
+
+	public float GetCyclesToProduce() {
+		return secondsToProduce * 5;
+	}
 
 	// Use this for initialization
 	void Start () {
-	
 	}
 	
 	// Update is called once per frame
