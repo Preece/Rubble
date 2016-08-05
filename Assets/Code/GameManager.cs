@@ -4,8 +4,7 @@ using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour {
 
-    [SerializeField]
-    int secondsPerCycle = 5;
+    float secondsPerCycle = 0.2f;
     float pointInCycle = 0;
     static GameManager t; 
 
@@ -28,6 +27,7 @@ public class GameManager : MonoBehaviour {
         {
             HandleClick(); 
         }
+
         PassTime(); 
 	}
 
@@ -37,6 +37,7 @@ public class GameManager : MonoBehaviour {
         if(pointInCycle >= secondsPerCycle)
         {
             pointInCycle -= secondsPerCycle; 
+
             for(int i = 0; i < buildings.Count; i++)
             {
                 buildings[i].NextCycle();
@@ -66,6 +67,7 @@ public class GameManager : MonoBehaviour {
             ClickedNothing(); 
         }
     }
+
     void ClickedNothing()
     {
         UIManager.Deselect(); 
