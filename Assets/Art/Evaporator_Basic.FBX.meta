@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: 44abc967333a1be4dba2869ee8b9a0f7
+timeCreated: 1470333794
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bottom Plate
+    100002: Box041
+    100004: Box042
+    100006: Box043
+    100008: Box044
+    100010: Box045
+    100012: Box048
+    100014: Box049
+    100016: Box050
+    100018: Box051
+    100020: Box052
+    100022: Box053
+    100024: Box054
+    100026: Box055
+    100028: Box056
+    100030: Bucket
+    100032: Cinderblock
+    100034: Cinderblock 1
+    100036: Cinderblock 2
+    100038: Cinderblock 3
+    100040: //RootNode
+    100042: FrontTarp
+    100044: Left Tarp
+    100046: MetalSheetBack
+    100048: Right Tarp
+    100050: Windo_Set_3
+    100052: Window
+    100054: Window_set_1
+    100056: WindowSEt_2
+    400000: Bottom Plate
+    400002: Box041
+    400004: Box042
+    400006: Box043
+    400008: Box044
+    400010: Box045
+    400012: Box048
+    400014: Box049
+    400016: Box050
+    400018: Box051
+    400020: Box052
+    400022: Box053
+    400024: Box054
+    400026: Box055
+    400028: Box056
+    400030: Bucket
+    400032: Cinderblock
+    400034: Cinderblock 1
+    400036: Cinderblock 2
+    400038: Cinderblock 3
+    400040: //RootNode
+    400042: FrontTarp
+    400044: Left Tarp
+    400046: MetalSheetBack
+    400048: Right Tarp
+    400050: Windo_Set_3
+    400052: Window
+    400054: Window_set_1
+    400056: WindowSEt_2
+    2300000: Bottom Plate
+    2300002: Box041
+    2300004: Box042
+    2300006: Box043
+    2300008: Box044
+    2300010: Box045
+    2300012: Box048
+    2300014: Box049
+    2300016: Box050
+    2300018: Box051
+    2300020: Box052
+    2300022: Box053
+    2300024: Box054
+    2300026: Box055
+    2300028: Box056
+    2300030: Bucket
+    2300032: Cinderblock
+    2300034: Cinderblock 1
+    2300036: Cinderblock 2
+    2300038: Cinderblock 3
+    2300040: FrontTarp
+    2300042: Left Tarp
+    2300044: MetalSheetBack
+    2300046: Right Tarp
+    2300048: Windo_Set_3
+    2300050: Window
+    2300052: Window_set_1
+    2300054: WindowSEt_2
+    3300000: Bottom Plate
+    3300002: Box041
+    3300004: Box042
+    3300006: Box043
+    3300008: Box044
+    3300010: Box045
+    3300012: Box048
+    3300014: Box049
+    3300016: Box050
+    3300018: Box051
+    3300020: Box052
+    3300022: Box053
+    3300024: Box054
+    3300026: Box055
+    3300028: Box056
+    3300030: Bucket
+    3300032: Cinderblock
+    3300034: Cinderblock 1
+    3300036: Cinderblock 2
+    3300038: Cinderblock 3
+    3300040: FrontTarp
+    3300042: Left Tarp
+    3300044: MetalSheetBack
+    3300046: Right Tarp
+    3300048: Windo_Set_3
+    3300050: Window
+    3300052: Window_set_1
+    3300054: WindowSEt_2
+    4300000: Box041
+    4300002: Box042
+    4300004: Box043
+    4300006: Box044
+    4300008: Box045
+    4300010: Bottom Plate
+    4300012: Window
+    4300014: Box048
+    4300016: Box049
+    4300018: Box050
+    4300020: Box051
+    4300022: Box052
+    4300024: Box053
+    4300026: Box054
+    4300028: Box055
+    4300030: Box056
+    4300032: Right Tarp
+    4300034: Left Tarp
+    4300036: MetalSheetBack
+    4300038: Cinderblock
+    4300040: Cinderblock
+    4300042: Cinderblock
+    4300044: Cinderblock
+    4300046: Bucket
+    4300048: FrontTarp
+    4300050: Window_set_1
+    4300052: WindowSEt_2
+    4300054: Windo_Set_3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

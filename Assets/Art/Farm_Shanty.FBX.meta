@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: 7a88cfac524b34647ad9089b2a325a5a
+timeCreated: 1470105237
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Barrel
+    100002: Crate
+    100004: Crates
+    100006: Fabric
+    100008: //RootNode
+    100010: Ground
+    100012: HoeBarrel
+    100014: HoeBody
+    100016: HoeHead
+    100018: MetalPole
+    100020: Rock
+    100022: Row1
+    100024: Row2
+    100026: Row3
+    100028: Row4
+    100030: Sheet_1
+    100032: Sheet_2
+    100034: Tire
+    100036: Wall2
+    100038: Wall_1
+    100040: WoodBeam
+    100042: Box041
+    400000: Barrel
+    400002: Crate
+    400004: Crates
+    400006: Fabric
+    400008: //RootNode
+    400010: Ground
+    400012: HoeBarrel
+    400014: HoeBody
+    400016: HoeHead
+    400018: MetalPole
+    400020: Rock
+    400022: Row1
+    400024: Row2
+    400026: Row3
+    400028: Row4
+    400030: Sheet_1
+    400032: Sheet_2
+    400034: Tire
+    400036: Wall2
+    400038: Wall_1
+    400040: WoodBeam
+    400042: Box041
+    2300000: Barrel
+    2300002: Crate
+    2300004: Crates
+    2300006: Fabric
+    2300008: Ground
+    2300010: HoeBarrel
+    2300012: HoeBody
+    2300014: HoeHead
+    2300016: MetalPole
+    2300018: Rock
+    2300020: Row1
+    2300022: Row2
+    2300024: Row3
+    2300026: Row4
+    2300028: Sheet_1
+    2300030: Sheet_2
+    2300032: Tire
+    2300034: Wall2
+    2300036: Wall_1
+    2300038: WoodBeam
+    2300040: Box041
+    3300000: Barrel
+    3300002: Crate
+    3300004: Crates
+    3300006: Fabric
+    3300008: Ground
+    3300010: HoeBarrel
+    3300012: HoeBody
+    3300014: HoeHead
+    3300016: MetalPole
+    3300018: Rock
+    3300020: Row1
+    3300022: Row2
+    3300024: Row3
+    3300026: Row4
+    3300028: Sheet_1
+    3300030: Sheet_2
+    3300032: Tire
+    3300034: Wall2
+    3300036: Wall_1
+    3300038: WoodBeam
+    3300040: Box041
+    4300000: Ground
+    4300002: Barrel
+    4300004: Crate
+    4300006: Crates
+    4300008: Sheet_1
+    4300010: Sheet_2
+    4300012: Rock
+    4300014: HoeBarrel
+    4300016: HoeHead
+    4300018: HoeBody
+    4300020: Wall_1
+    4300022: Fabric
+    4300024: MetalPole
+    4300026: Tire
+    4300028: Wall2
+    4300030: WoodBeam
+    4300032: Row4
+    4300034: Row3
+    4300036: Row2
+    4300038: Row1
+    4300040: Box041
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

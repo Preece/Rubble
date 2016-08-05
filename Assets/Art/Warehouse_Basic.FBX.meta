@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: b21568538a3997248aa02dd73c82a967
+timeCreated: 1470164632
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ChimneyBottom
+    100002: ChimneyInterior
+    100004: ChimneyTop
+    100006: Factory
+    100008: FrontDoor
+    100010: FrontFrame
+    100012: Ground
+    100014: //RootNode
+    100016: WindowFrame2
+    100018: WindowFrame3
+    100020: WindowFrame4
+    100022: WindowFrame5
+    100024: WindowFrame6
+    100026: WindowFrame7
+    100028: WindowFrame8
+    100030: WindowFrame_1
+    100032: WindowPane1
+    100034: WindowPane2
+    100036: WindowPane3
+    100038: WindowPane4
+    100040: WindowPane5
+    100042: WindowPane6
+    100044: WindowPane7
+    100046: WIndowPane8
+    100048: Box041
+    100050: NewGround
+    400000: ChimneyBottom
+    400002: ChimneyInterior
+    400004: ChimneyTop
+    400006: Factory
+    400008: FrontDoor
+    400010: FrontFrame
+    400012: Ground
+    400014: //RootNode
+    400016: WindowFrame2
+    400018: WindowFrame3
+    400020: WindowFrame4
+    400022: WindowFrame5
+    400024: WindowFrame6
+    400026: WindowFrame7
+    400028: WindowFrame8
+    400030: WindowFrame_1
+    400032: WindowPane1
+    400034: WindowPane2
+    400036: WindowPane3
+    400038: WindowPane4
+    400040: WindowPane5
+    400042: WindowPane6
+    400044: WindowPane7
+    400046: WIndowPane8
+    400048: Box041
+    400050: NewGround
+    2300000: ChimneyBottom
+    2300002: ChimneyInterior
+    2300004: ChimneyTop
+    2300006: Factory
+    2300008: FrontDoor
+    2300010: FrontFrame
+    2300012: Ground
+    2300014: WindowFrame2
+    2300016: WindowFrame3
+    2300018: WindowFrame4
+    2300020: WindowFrame5
+    2300022: WindowFrame6
+    2300024: WindowFrame7
+    2300026: WindowFrame8
+    2300028: WindowFrame_1
+    2300030: WindowPane1
+    2300032: WindowPane2
+    2300034: WindowPane3
+    2300036: WindowPane4
+    2300038: WindowPane5
+    2300040: WindowPane6
+    2300042: WindowPane7
+    2300044: WIndowPane8
+    2300046: Box041
+    2300048: NewGround
+    3300000: ChimneyBottom
+    3300002: ChimneyInterior
+    3300004: ChimneyTop
+    3300006: Factory
+    3300008: FrontDoor
+    3300010: FrontFrame
+    3300012: Ground
+    3300014: WindowFrame2
+    3300016: WindowFrame3
+    3300018: WindowFrame4
+    3300020: WindowFrame5
+    3300022: WindowFrame6
+    3300024: WindowFrame7
+    3300026: WindowFrame8
+    3300028: WindowFrame_1
+    3300030: WindowPane1
+    3300032: WindowPane2
+    3300034: WindowPane3
+    3300036: WindowPane4
+    3300038: WindowPane5
+    3300040: WindowPane6
+    3300042: WindowPane7
+    3300044: WIndowPane8
+    3300046: Box041
+    3300048: NewGround
+    4300000: Ground
+    4300002: Factory
+    4300004: FrontFrame
+    4300006: FrontDoor
+    4300008: WindowFrame7
+    4300010: WindowFrame6
+    4300012: WindowFrame8
+    4300014: WindowFrame_1
+    4300016: WindowFrame2
+    4300018: WindowFrame3
+    4300020: WindowFrame4
+    4300022: WindowFrame5
+    4300024: WIndowPane8
+    4300026: WindowPane7
+    4300028: WindowPane6
+    4300030: WindowPane5
+    4300032: WindowPane4
+    4300034: WindowPane3
+    4300036: WindowPane2
+    4300038: WindowPane1
+    4300040: ChimneyBottom
+    4300042: ChimneyTop
+    4300044: ChimneyInterior
+    4300046: Box041
+    4300048: NewGround
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
