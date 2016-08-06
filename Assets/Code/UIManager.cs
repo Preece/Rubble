@@ -11,7 +11,9 @@ public class UIManager : MonoBehaviour {
     [SerializeField]
     Image scrollable;
     [SerializeField]
-    UpgradeButton buttonPrefab; 
+    UpgradeButton upgradeButtonPrefab;
+	[SerializeField]
+	RecipeButton recipeButtonPrefab;
 
     void Awake()
     {
@@ -23,17 +25,39 @@ public class UIManager : MonoBehaviour {
         Deselect(); 
     }
 
-	public static void DisplayUpgradePossiblities(Building currentBuilding, List<Building> buildings)
+	public static void DisplayBuildingMenu(Building currentBuilding) 
+	{
+		t.backgroundPanel.enabled = true;
+		t.scrollable.enabled = true; 
+
+		UIManager.DisplayUpgradePossiblities (currentBuilding);	
+		UIManager.DisplayRecipes (currentBuilding);	
+	}
+
+	public static void DisplayUpgradePossiblities(Building currentBuilding)
     {
-        t.backgroundPanel.enabled = true;
-        t.scrollable.enabled = true; 
+		List<Building> buildings = currentBuilding.GetUpgradePossiblities ();
+
         for(int i = 0; i < buildings.Count; i++)
         {
-            UpgradeButton button = Instantiate(t.buttonPrefab);
+			UpgradeButton button = Instantiate(t.upgradeButtonPrefab);
             button.transform.SetParent(t.scrollable.transform);
             button.Created(currentBuilding, buildings[i]); 
         }
     }
+
+	public static void DisplayRecipes(Building currentBuilding)
+	{
+		List<Recipe> recipes = currentBuilding.GetRecipes();
+
+		for(int i = 0; i < recipes.Count; i++)
+		{
+			RecipeButton button = Instantiate(t.recipeButtonPrefab);
+			button.transform.SetParent(t.scrollable.transform);
+			button.Created(currentBuilding, recipes[i]); 
+		}
+	}
+
     public static void Deselect()
     {
         t.backgroundPanel.enabled = false;
