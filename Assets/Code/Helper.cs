@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
-using System.Collections.Generic; 
+using System.Collections.Generic;
+using System;
 
 public class Helper  {
 
@@ -54,6 +55,18 @@ public class Helper  {
     public static bool HasResource(Dictionary<string, Resource> building, Resource resource)
     {
         return (building[resource.Type].Amount >= resource.Amount);
+    }
+    public static void RemoveRsources(Dictionary<string, Resource> building, List<Resource> resources)
+    {
+        for(int i = 0; i < resources.Count; i++)
+        {
+            RemoveResource(building, resources[i]); 
+        }
+    }
+
+    private static void RemoveResource(Dictionary<string, Resource> building, Resource resource)
+    {
+        building[resource.Type].Amount -= resource.Amount; 
     }
 
     //public static bool HasResources(List<Resource> building, List<Resource> requiremnts)

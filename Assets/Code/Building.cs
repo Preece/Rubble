@@ -86,4 +86,29 @@ public class Building : MonoBehaviour {
     {
         upgradingTo = upgradeBuilding; 
     }
+
+    public int RequestFromOutput(string reqResource, int reqAmount)
+    {
+        int owendAmount = outputStock.ContainsKey(reqResource) ? outputStock[reqResource].Amount : 0;
+        int removedAmount = Math.Min(owendAmount, reqAmount); 
+        if (removedAmount != 0)
+        {
+            outputStock[reqResource].Amount -= removedAmount; 
+        }
+        return removedAmount; 
+    }
+    public void AddResourcesToInput(string resource, int amount)
+    {
+        if (inputStock.ContainsKey(resource))
+        {
+            inputStock[resource].Amount += amount;
+        } else
+        {
+            ResourceMax newResource = new ResourceMax();
+            newResource.Type = resource;
+            newResource.Amount = amount;
+            newResource.Max = -1; //This needs to be figured out, right now leaving -1 as a 'no max' 
+            inputStock[resource] = newResource; 
+        }
+    }
 }

@@ -7,9 +7,11 @@ public class Recipe : MonoBehaviour {
 
 	[SerializeField]
 	List<Resource> input;
+    public List<Resource> Input { get { return input; } }
 
 	[SerializeField]
 	List<Resource> output;
+    public List<Resource> Output { get { return output; } }
 
 	[SerializeField]
 	float secondsToProduce = 1.0f;
