@@ -50,6 +50,9 @@ public class PlotGeneration : MonoBehaviour {
                 {
                     building = Instantiate(PickRandomBuilding(weights, 0, weights.Length, -1));
                 }
+                BoxCollider coll = building.gameObject.AddComponent<BoxCollider>();
+                coll.size = new Vector3(plotSize, 1, plotSize);
+                coll.center = new Vector3(0, -0.5f, 0); 
                 building.transform.position = new Vector3(x * plotDistance, 0, y * plotDistance);
                 building.transform.parent = buildings.transform; 
                 MakeSidewalk(building.transform.position);
