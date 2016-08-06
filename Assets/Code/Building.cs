@@ -35,7 +35,7 @@ public class Building : MonoBehaviour {
     Building upgradingTo; 
 
 	[SerializeField]
-	List<Recipe> recipies;
+	List<Recipe> recipes;
 
 	Recipe currentRecipe;
 
@@ -45,7 +45,7 @@ public class Building : MonoBehaviour {
         jobs = GetComponentsInChildren<Job>();
         GameManager.RegisterBuilding(this);
 
-		currentRecipe = recipies[0];
+		currentRecipe = recipes[0];
 	}
 
     internal void UpdateEfficiency()
@@ -76,10 +76,21 @@ public class Building : MonoBehaviour {
 		}
         
     }
+
+	public List<Building> GetUpgradePossiblities() 
+	{
+		return upgradePossibilities;
+	}
+
+	public List<Recipe> GetRecipes() 
+	{
+		return recipes;
+	}
+
     public void ClickedOn()
     {
         Debug.Log("clicked on" + name);
-        UIManager.DisplayUpgradePossiblities(this, upgradePossibilities); 
+        UIManager.DisplayBuildingMenu(this); 
     }
 
     public void UpgradeBuliding(Building upgradeBuilding)

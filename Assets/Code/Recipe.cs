@@ -6,6 +6,10 @@ using System;
 public class Recipe : MonoBehaviour {
 
 	[SerializeField]
+	string name; 
+	public string Name { get { return name; } }
+
+	[SerializeField]
 	List<Resource> input;
 
 	[SerializeField]
